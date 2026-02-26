@@ -27,5 +27,5 @@ Requirements
 - tkinter (usually comes with Python)
 
 ## Installation
-1. Clone the repository:
-https://github.com/Team1-Microwave-Project/Smart-Microwave-Oven-System-.github
+1. Download program files
+2. Launch 'microwave_system_Ver4.py'
