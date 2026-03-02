@@ -1,6 +1,6 @@
 # Smart Microwave Oven System — Test Cases
 
-This repository contains a Tkinter-based “Smart Microwave Oven System” (`microwave_system.py`).  
+This repository contains a Tkinter-based “Smart Microwave Oven System” (`microwave_system_Ver4.py`).  
 This README documents the **recommended test cases** (automated + manual GUI) to verify core behavior.
 
 ---
@@ -18,7 +18,7 @@ This README documents the **recommended test cases** (automated + manual GUI) to
 From this folder:
 
 ```bash
-python microwave_system.py
+python microwave_system_Ver4.py
 ```
 
 ---
@@ -103,4 +103,5 @@ Notes:
 | **TC-UI-12** | Search recipes — reset on empty | Recipes tab | Search with query; then clear query and search again | Results filtered with query; full list restored when query empty. |
 | **TC-UI-13** | Cooking history display | At least 2 sessions completed | Open `Cooking History`; click `Refresh History` | Sessions listed with start time, duration, power, and mode. |
 | **TC-UI-14** | Status panel periodic refresh | Start a 10s cook | Observe status for >10 seconds | Remaining time decrements each second; sensor reading changes; returns to READY at end. |
+
 
